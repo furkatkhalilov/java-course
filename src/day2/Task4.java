@@ -11,6 +11,7 @@ public class Task4 {
         int y = 20;
         int m = 20;
         int n = 90;
+
         int sum = x + y + m + n;
 
         System.out.println( sum );
