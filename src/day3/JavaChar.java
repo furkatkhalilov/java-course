@@ -3,27 +3,19 @@ package day3;
 public class JavaChar {
     public static void main(String[] args) {
 
-        char min = Character.MIN_VALUE;
-        char max = Character.MAX_VALUE;
+//        char h = 'h';
+//        char i = 'i';
+//        char h2 = 104;
+//
+//        System.out.print(h);
+//        System.out.println(i);
 
-        System.out.println(min);
-        System.out.println(max);
+        char charA =  'a';
+        System.out.println(charA);
 
-        char h = 'h';
-        char i = 'i';
+        char decimalAccess = 97;
+        System.out.println(decimalAccess);
 
-        System.out.print(h);
-        System.out.println(i);
-
-
-        char space = 32;
-        System.out.println(space);
-
-        char letterA1 = 'A';
-        char letterA2 = 65;
-
-        System.out.println(letterA1);
-        System.out.println(letterA2);
     }
 }
 

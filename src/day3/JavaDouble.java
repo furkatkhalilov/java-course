@@ -4,11 +4,10 @@ public class JavaDouble {
 
     public static void main(String[] args) {
 
-        double min = Double.MIN_VALUE;
-        double max = Double.MAX_VALUE;
+        // Sufficient for storing 15 decimal digits
+        double tax = 6; // you can add D, but it isn't necessary
 
-        System.out.println(min);
-        System.out.println(max);
+        System.out.println(tax);
 
     }
 

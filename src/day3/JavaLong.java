@@ -8,11 +8,13 @@ public class JavaLong {
         long min = -9_223_372_036_854_775_808L;
         long max = 9_223_372_036_854_775_807L;
 
-        // do I must to write long a = 5L or long a = 5?
+        // do I have to write long a = 5L or long a = 5?
         long a = 1L;
 
         // its better to write L every time
         System.out.println(max);
+
+        long bigNumber = 3_000_00;
     }
 
 }
