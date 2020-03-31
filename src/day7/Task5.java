@@ -6,6 +6,6 @@ public class Task5 {
     // false
 
     public static void main(String[] args) {
-        System.out.println("Java".equals( "C++" ));
+        System.out.println( "Java".equals( "C++" ) );
     }
 }

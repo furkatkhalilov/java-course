@@ -17,7 +17,7 @@ public class StringIndexOf {
 
 
         String t2 = "Good morning!!!";
-        System.out.println(t2.indexOf( "mor" ));
+        System.out.println( t2.indexOf( "mor" ) );
     }
 }
 

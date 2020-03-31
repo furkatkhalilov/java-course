@@ -37,7 +37,7 @@ public class Task2 {
                 System.out.println( "Day number is " + 7 );
                 break;
             default:
-                System.out.println("it is different day :/");
+                System.out.println( "it is different day :/" );
         }
 
     }

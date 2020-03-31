@@ -10,7 +10,7 @@ public class Task1 {
         String text1 = "Length of ";
         String text2 = " is: ";
 
-        int l  = myName.length();
+        int l = myName.length();
 
         String res = text1 + myName + text2 + l;
         System.out.println( res );

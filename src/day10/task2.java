@@ -6,25 +6,25 @@ public class task2 {
 
     public static void main(String[] args) {
 
-        Scanner dp = new Scanner(System.in);
+        Scanner dp = new Scanner( System.in );
 
-        System.out.println("How many rooms do you need? ");
+        System.out.println( "How many rooms do you need? " );
         int roomCount = dp.nextInt();
 
-        if(roomCount>3){
-            System.out.println("we dont have any apartments more then 3 rooms");
+        if(roomCount > 3) {
+            System.out.println( "we dont have any apartments more then 3 rooms" );
 
-        }else if(roomCount == 3){
-            System.out.println("Rent is 2500");
+        } else if(roomCount == 3) {
+            System.out.println( "Rent is 2500" );
 
-        }else if(roomCount == 2){
-            System.out.println("Rent is 2000");
+        } else if(roomCount == 2) {
+            System.out.println( "Rent is 2000" );
 
-        }else if(roomCount == 1){
-            System.out.println("Rent is 1500");
+        } else if(roomCount == 1) {
+            System.out.println( "Rent is 1500" );
 
-        }else if(roomCount == 0){
-            System.out.println("Rent is 1100");
+        } else if(roomCount == 0) {
+            System.out.println( "Rent is 1100" );
 
         }
 
@@ -50,6 +50,6 @@ public class task2 {
 
     }
 
-        
-    }
+
+}
 

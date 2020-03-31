@@ -24,9 +24,9 @@ public class Task4 {
         // 3. to check it's in correct range of month
         if(monthDigit >= 1 && monthDigit <= 12) {
             // 4. print correct or wrong
-            System.out.println("correct");
-        }else {
-            System.out.println("wrong");
+            System.out.println( "correct" );
+        } else {
+            System.out.println( "wrong" );
         }
 
     }

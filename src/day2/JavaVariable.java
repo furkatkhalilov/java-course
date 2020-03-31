@@ -6,10 +6,10 @@ public class JavaVariable {
         int age = 10; // this is initializing
         int year; // this is just declaring
 
-        System.out.println(age);
+        System.out.println( age );
 
         age = 50; // assign different value
-        System.out.println(age);
+        System.out.println( age );
 
         //int 2a; this is not valid
         int $ = 900;
@@ -23,7 +23,7 @@ public class JavaVariable {
         int y = 20;
         int z = x + y;
 
-        System.out.println(z);
+        System.out.println( z );
 
         int a = 10, b = 30;
 

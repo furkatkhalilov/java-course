@@ -8,7 +8,7 @@ public class Task5 {
 
         char ch = 'M';
         int ascii = ch;
-        System.out.println(ascii);
+        System.out.println( ascii );
 
     }
 }

@@ -9,16 +9,16 @@ public class Ex1 {
         int ten = 10;
         int three = 3;
 
-        double result = (double) ten / three ;
+        double result = (double) ten / three;
         //  (double) ten / three ;
         //  ten / (double)three ;
         //  (double) ten / (double) three;
         System.out.println( result );
 
-        System.out.println(10 / 3); // result only int : 3
-        System.out.println(10.0 / 3); // results decimal 3.333
-        System.out.println(10 / 3.0); // results decimal 3.333
-        System.out.println(10.0 / 3.0); // results decimal 3.333
+        System.out.println( 10 / 3 ); // result only int : 3
+        System.out.println( 10.0 / 3 ); // results decimal 3.333
+        System.out.println( 10 / 3.0 ); // results decimal 3.333
+        System.out.println( 10.0 / 3.0 ); // results decimal 3.333
 
 
 //        byte byteNumber = 10;

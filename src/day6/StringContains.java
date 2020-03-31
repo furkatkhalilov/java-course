@@ -10,8 +10,8 @@ public class StringContains {
 
     public static void main(String[] args) {
         String t2 = "Good morning!!!";
-        System.out.println(t2.contains( "mor" )); // true
-        System.out.println(t2.contains( "morik" )); //false
+        System.out.println( t2.contains( "mor" ) ); // true
+        System.out.println( t2.contains( "morik" ) ); //false
 
     }
 }

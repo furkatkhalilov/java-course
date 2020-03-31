@@ -13,7 +13,7 @@ public class StringToLowerCase {
     public static void main(String[] args) {
 
         String text = "HELLO worlD!!!";
-        System.out.println( text.toLowerCase());
+        System.out.println( text.toLowerCase() );
 
     }
 

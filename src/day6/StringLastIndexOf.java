@@ -15,7 +15,7 @@ public class StringLastIndexOf {
 //        System.out.println(text.lastIndexOf( 'l' ));
 
         String t2 = "Good mood";
-        System.out.println(t2.lastIndexOf( "oo" ));
+        System.out.println( t2.lastIndexOf( "oo" ) );
 
     }
 }

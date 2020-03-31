@@ -9,8 +9,8 @@ public class Task1 {
         long driverId = 18385038L;
         double decimalValue = driverId;
 
-        System.out.println(driverId);
-        System.out.println(decimalValue);
+        System.out.println( driverId );
+        System.out.println( decimalValue );
 
     }
 }

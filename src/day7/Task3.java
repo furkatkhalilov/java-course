@@ -25,6 +25,6 @@ public class Task3 {
         );
 
         //part3
-        System.out.println( s.replaceAll( "[oqr]", "L" ));
+        System.out.println( s.replaceAll( "[oqr]", "L" ) );
     }
 }

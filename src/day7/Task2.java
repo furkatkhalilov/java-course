@@ -44,7 +44,7 @@ public class Task2 {
 
         part1 = part1.toUpperCase();
 
-        System.out.println(part1+part2);
+        System.out.println( part1 + part2 );
 
 
     }

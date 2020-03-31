@@ -27,29 +27,29 @@ public class task5 {
 
     public static void main(String[] args) {
 
-        Scanner pd = new Scanner(System.in);
+        Scanner pd = new Scanner( System.in );
 
-        System.out.println("enter star level");
+        System.out.println( "enter star level" );
         String strStar = pd.nextLine();
 
-        System.out.println("how many miles");
+        System.out.println( "how many miles" );
         int mile = pd.nextInt();
 
-        System.out.println(strStar + " before replace all ");
+        System.out.println( strStar + " before replace all " );
 
 //                                                [A-z]   this will remove all the letters
-        strStar = strStar.replaceAll("[^\\d.]", ""); // remove all the letters and special characters from string
+        strStar = strStar.replaceAll( "[^\\d.]", "" ); // remove all the letters and special characters from string
 
-        System.out.println(strStar + " after replace all");
+        System.out.println( strStar + " after replace all" );
 
-        double doubleStar = Double.valueOf(strStar);
+        double doubleStar = Double.valueOf( strStar );
 
-        if (doubleStar < 3 && mile > 5) {
-            System.out.println("his hotel is too far from city and it is not good");
+        if(doubleStar < 3 && mile > 5) {
+            System.out.println( "his hotel is too far from city and it is not good" );
 
-        } else if (doubleStar >= 3 && mile <= 5) {
+        } else if(doubleStar >= 3 && mile <= 5) {
 
-            System.out.println(" this hotel is perfect");
+            System.out.println( " this hotel is perfect" );
         }
 
     }

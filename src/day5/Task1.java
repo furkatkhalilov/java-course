@@ -10,14 +10,14 @@ public class Task1 {
         Scanner readFromUser = new Scanner( System.in );
 
         // part 1 using Strings only
-        System.out.println("Please enter your username:");
+        System.out.println( "Please enter your username:" );
         String username = readFromUser.nextLine();
 
-        System.out.println("Please enter your password:");
+        System.out.println( "Please enter your password:" );
         String password = readFromUser.nextLine();
 
-        System.out.println("Username: " + username);
-        System.out.println("Password: " + password);
+        System.out.println( "Username: " + username );
+        System.out.println( "Password: " + password );
 
         // part 2 using number for password
 //        System.out.println( "Please enter your password:" );
@@ -31,7 +31,6 @@ public class Task1 {
 //        System.out.println( "Password: " + password );
     }
 }
-
 
 
 //        Dos

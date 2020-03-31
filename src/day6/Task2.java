@@ -7,7 +7,7 @@ public class Task2 {
     public static void main(String[] args) {
 
         String email = "admin@techno.study";
-        System.out.println(email.indexOf( "study" ));
+        System.out.println( email.indexOf( "study" ) );
 
     }
 

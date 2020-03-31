@@ -22,7 +22,6 @@ public class Task1 {
         System.out.println( "random number2: " + num2 );
 
 
-
     }
 
 }

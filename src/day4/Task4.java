@@ -16,8 +16,8 @@ public class Task4 {
 //                " \nchar: " + c
 //        );
 
-        System.out.println(10 + " " + 10);
-        System.out.println(10 + 10);
+        System.out.println( 10 + " " + 10 );
+        System.out.println( 10 + 10 );
 
     }
 

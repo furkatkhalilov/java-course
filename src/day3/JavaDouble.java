@@ -7,7 +7,7 @@ public class JavaDouble {
         // Sufficient for storing 15 decimal digits
         double tax = 6; // you can add D, but it isn't necessary
 
-        System.out.println(tax);
+        System.out.println( tax );
 
     }
 

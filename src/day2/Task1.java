@@ -8,7 +8,7 @@ add multi line and single line comment
  */
 public class Task1 {
 
-    public static void main(String args[]){
+    public static void main(String args[]) {
         /**
          multi line
          comment

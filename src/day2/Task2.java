@@ -12,7 +12,6 @@ public class Task2 {
         System.out.println( "Techno" );
 
 
-
         System.out.println( "S" );
         System.out.println( "t" );
         System.out.println( "u" );

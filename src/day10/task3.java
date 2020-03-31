@@ -31,35 +31,35 @@ public class task3 {
          */
     public static void main(String[] args) {
 
-        Scanner dp = new Scanner(System.in);
+        Scanner dp = new Scanner( System.in );
 
-        System.out.println("Enter num1");
+        System.out.println( "Enter num1" );
         int num1 = dp.nextInt();
 
-        System.out.println("Enter num2");
+        System.out.println( "Enter num2" );
         int num2 = dp.nextInt();
 
-        int reminder = num1%num2;
+        int reminder = num1 % num2;
 
-        if(num2>num1){
-            System.out.println("this is not a valid numbers num2 should be smaller then num1");
+        if(num2 > num1) {
+            System.out.println( "this is not a valid numbers num2 should be smaller then num1" );
 
-        }else if(reminder==4){
-            System.out.println(num1 +" divide by " +num2 +" is 4");
+        } else if(reminder == 4) {
+            System.out.println( num1 + " divide by " + num2 + " is 4" );
 
-        }else if(reminder==3){
-            System.out.println(num1 +" divide by " +num2 +" is 3");
+        } else if(reminder == 3) {
+            System.out.println( num1 + " divide by " + num2 + " is 3" );
 
-        }else if(reminder==2){
-            System.out.println(num1+" divide by " + num2 + " is 2");
+        } else if(reminder == 2) {
+            System.out.println( num1 + " divide by " + num2 + " is 2" );
 
-        }else if (reminder ==1 ){
-            System.out.println(num1 + " divide by " + num2 + " is 1 ");
+        } else if(reminder == 1) {
+            System.out.println( num1 + " divide by " + num2 + " is 1 " );
 
-        }else if(reminder ==0){
-            System.out.println(num1 + " divide by " + num2 + " is 0");
+        } else if(reminder == 0) {
+            System.out.println( num1 + " divide by " + num2 + " is 0" );
         }
 
     }
-    }
+}
 

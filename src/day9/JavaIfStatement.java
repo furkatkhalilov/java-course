@@ -10,7 +10,7 @@ public class JavaIfStatement {
             System.out.println( "You have number which is greater than 10" );
         }
 
-        if(num > 15){
+        if(num > 15) {
             System.out.println( "You have number which is greater than 15" );
         }
 

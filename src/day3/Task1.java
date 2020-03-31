@@ -1,4 +1,5 @@
 package day3;
+
 /*
 Task 1
 Define "Government Budget" using data types: byte, short, int , long
@@ -14,11 +15,11 @@ public class Task1 {
         long stateTax = 90000000L;
         short welfare = 20000;
 
-        System.out.println(health);
-        System.out.println(defence);
-        System.out.println(tax);
-        System.out.println(welfare);
-        System.out.println(stateTax);
+        System.out.println( health );
+        System.out.println( defence );
+        System.out.println( tax );
+        System.out.println( welfare );
+        System.out.println( stateTax );
 
     }
 

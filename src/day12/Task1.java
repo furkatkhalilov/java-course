@@ -1,7 +1,6 @@
 package day12;
 
 import java.util.Random;
-import java.util.Scanner;
 
 public class Task1 {
     /*

@@ -16,6 +16,6 @@ public class StringEquals {
         //System.out.println(t1.equals( t2 )); // false
         //System.out.println(t1.equals( "Hello")); // true
 
-        System.out.println(t1.equals( "hello")); // ???
+        System.out.println( t1.equals( "hello" ) ); // ???
     }
 }

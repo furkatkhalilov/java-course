@@ -17,30 +17,30 @@ public class ElseStatement {
 
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner( System.in );
 
-        System.out.println("enter name");
+        System.out.println( "enter name" );
 
         String name1 = input.nextLine();
 
-        System.out.println("enter name");
+        System.out.println( "enter name" );
 
         String name2 = input.nextLine();
 
-        int total = name1.length() +name2.length();
+        int total = name1.length() + name2.length();
 
 
-        if (total>15){
+        if(total > 15) {
 
-            System.out.println("your string is too long");
+            System.out.println( "your string is too long" );
 
-        }else if(total > 10){
+        } else if(total > 10) {
 
-            System.out.println("Your string is okay");
+            System.out.println( "Your string is okay" );
 
-        }else if (total > 5){
+        } else if(total > 5) {
 
-            System.out.println("your string is too short");
+            System.out.println( "your string is too short" );
         }
 
     }

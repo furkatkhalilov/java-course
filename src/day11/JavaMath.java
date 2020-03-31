@@ -1,7 +1,5 @@
 package day11;
 
-        import javax.sound.midi.Soundbank;
-
 public class JavaMath {
     /*
      Math.abs(a)

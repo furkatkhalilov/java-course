@@ -48,20 +48,20 @@ public class andOrOperators {
 
          */
 
-            Scanner df = new Scanner(System.in);
+        Scanner df = new Scanner( System.in );
 
-            System.out.println("enter the username");
-            String username = df.nextLine();
+        System.out.println( "enter the username" );
+        String username = df.nextLine();
 
-            System.out.println("enter the password ");
-            String password = df.nextLine();
+        System.out.println( "enter the password " );
+        String password = df.nextLine();
 
-            if (username.contains(password) && password.length() < 5) {
+        if(username.contains( password ) && password.length() < 5) {
 
-                System.out.println("your password is not accepted ");
-
-            }
-
+            System.out.println( "your password is not accepted " );
 
         }
+
+
     }
+}

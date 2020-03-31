@@ -1,6 +1,5 @@
 package day7;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class StringSplit {
@@ -16,7 +15,7 @@ public class StringSplit {
     public static void main(String[] args) {
         String text = "SOFTWARE DEVELOPER in TEST";
 
-        System.out.println( Arrays.toString(text.split( " " )) );
+        System.out.println( Arrays.toString( text.split( " " ) ) );
     }
 
 }

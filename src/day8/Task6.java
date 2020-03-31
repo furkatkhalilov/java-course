@@ -19,6 +19,6 @@ public class Task6 {
         double m = input.nextDouble();
 
         double BMI = kg / (m * m);
-        System.out.print( "Body Mass Index is: " + BMI);
+        System.out.print( "Body Mass Index is: " + BMI );
     }
 }

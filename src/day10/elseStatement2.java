@@ -20,19 +20,18 @@ public class elseStatement2 {
 
             int age = 20;
 
-            if(age>=60){
-                System.out.println("you are senior citizen");
+            if(age >= 60) {
+                System.out.println( "you are senior citizen" );
 
-            }else if (age >= 50){
-                System.out.println("you are in your 50's");
+            } else if(age >= 50) {
+                System.out.println( "you are in your 50's" );
 
-            }else if(age >= 40){
-                System.out.println("you are in your 40's");
+            } else if(age >= 40) {
+                System.out.println( "you are in your 40's" );
 
-            }else{
-                System.out.println("you are still young ");
+            } else {
+                System.out.println( "you are still young " );
             }
-
 
 
         }

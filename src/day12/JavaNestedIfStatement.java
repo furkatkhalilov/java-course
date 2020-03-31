@@ -23,7 +23,7 @@ public class JavaNestedIfStatement {
             if(num > 50) {
                 System.out.println( "number is greater than 50" );
             }
-            
+
         }
 
     }

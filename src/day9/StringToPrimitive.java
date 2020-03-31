@@ -11,7 +11,7 @@ public class StringToPrimitive {
         // string to float
         float f1 = Float.parseFloat( "8.99" );
         float f2 = Float.valueOf( "8.99" );
-        System.out.println("floats: " + (f1 == f2));
+        System.out.println( "floats: " + (f1 == f2) );
 
         // string to integer
         int i1 = Integer.parseInt( "65" );

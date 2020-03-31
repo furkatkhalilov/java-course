@@ -48,8 +48,8 @@ true
         System.out.println( "a less than or equals to b: " + (a <= b) );
 
         String str = "123";
-        int i = Integer.parseInt(str);
+        int i = Integer.parseInt( str );
 
-        double dnum = Double.parseDouble(str);
+        double dnum = Double.parseDouble( str );
     }
 }

@@ -12,7 +12,7 @@ public class JavaLong {
         long a = 1L;
 
         // its better to write L every time
-        System.out.println(max);
+        System.out.println( max );
 
         long bigNumber = 3_000_00;
     }

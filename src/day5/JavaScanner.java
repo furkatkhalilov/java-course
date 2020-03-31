@@ -1,7 +1,5 @@
 package day5;
 
-import java.util.Scanner;
-
 public class JavaScanner {
 
 //    String  -> texts
@@ -26,10 +24,10 @@ public class JavaScanner {
         // system in is an InputStream which is typically connected to keyboard input of console programs.
 
         String username = scanner.nextLine();
-        System.out.println("Your first name is " + username);
+        System.out.println( "Your first name is " + username );
 
         String lastName = scanner.nextLine();
-        System.out.println("Your last name is " + lastName);
+        System.out.println( "Your last name is " + lastName );
 
     }
 

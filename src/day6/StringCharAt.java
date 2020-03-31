@@ -10,8 +10,8 @@ public class StringCharAt {
 
     public static void main(String[] args) {
         String text = "Google";
-        System.out.println(text.charAt( 5 ));
+        System.out.println( text.charAt( 5 ) );
 
-        System.out.println(text.charAt( -1 )); //gives exception
+        System.out.println( text.charAt( -1 ) ); //gives exception
     }
 }

@@ -19,8 +19,8 @@ public class JavaFloat {
 
         double second = 2;
 
-        System.out.println(first);
-        System.out.println(second);
+        System.out.println( first );
+        System.out.println( second );
 
 
     }

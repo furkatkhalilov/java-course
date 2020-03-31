@@ -18,9 +18,9 @@ public class orOperator {
         int num1 = 20;
 
         //          true        false
-        if(num1 >10 || num1<15 ){
+        if(num1 > 10 || num1 < 15) {
 
-            System.out.println("my number is: " +num1);
+            System.out.println( "my number is: " + num1 );
         }
     }
 }

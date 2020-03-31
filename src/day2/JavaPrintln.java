@@ -2,7 +2,7 @@ package day2;
 
 public class JavaPrintln {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         System.out.println( "Day 1" );
         System.out.println( "Day 2" );
         System.out.println( "Day 3" );

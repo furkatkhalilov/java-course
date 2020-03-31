@@ -10,11 +10,11 @@ public class JavaChar {
 //        System.out.print(h);
 //        System.out.println(i);
 
-        char charA =  'a';
-        System.out.println(charA);
+        char charA = 'a';
+        System.out.println( charA );
 
         char decimalAccess = 97;
-        System.out.println(decimalAccess);
+        System.out.println( decimalAccess );
 
     }
 }
