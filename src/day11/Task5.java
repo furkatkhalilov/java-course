@@ -12,7 +12,7 @@ public class Task5 {
         char letter = '%';
 
         // elvis
-        boolean isAlphabet = letter >= 97 && letter <= 122;
+        boolean isAlphabet = letter >= 'a' && letter <= 'z';
         System.out.println( isAlphabet ? "its in Alphabet" : "something different" );
 
     }
