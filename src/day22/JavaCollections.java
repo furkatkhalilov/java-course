@@ -33,6 +33,6 @@ public class JavaCollections {
 
         // Collections.replaceAll(); to replace some elements with new value
         Collections.replaceAll(numbers, 101, 5);
-        
+
     }
 }

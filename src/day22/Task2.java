@@ -86,5 +86,6 @@ public class Task2 {
         return result;
     }
 
+    // create method that will remove all occurrence of language which ends with "sh"
 
 }
