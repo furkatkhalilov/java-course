@@ -27,8 +27,9 @@ public class JavaArrayList {
         // adding element at specific position
         names.add(1, "Ali");
 
-        // to get element from arrayList
+        // to get/retrieve/take element from arrayList
         String elementAtIndex2 = names.get(2);
+
 
         // to update/change/set element at specific position
         names.set(0, "Bulut");
@@ -53,6 +54,6 @@ public class JavaArrayList {
         System.out.println(names);
 
         // to remove everything from arrayList
-        // names.clear();
+         names.clear();
     }
 }
