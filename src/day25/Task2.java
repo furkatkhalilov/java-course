@@ -1,0 +1,49 @@
+package day25;
+
+import java.util.HashMap;
+
+public class Task2 {
+    // create method that return Map as position and color
+//    ex
+//    1 Red
+//    2 Green
+    public static HashMap<Integer, String> getColorMap(String... color) {
+        HashMap<Integer, String> result = new HashMap<>();
+
+        for(int i = 0; i < color.length; i++) {
+            result.put(i + 1, color[i]);
+        }
+
+        return result;
+    }
+
+    // create method to check if key is present/exists in the map
+    public static boolean hasKey(HashMap<Integer, String> map, Integer key) {
+        return map.containsKey(key);
+    }
+
+    // create method to check if value is present/exists in the map
+    public static boolean hasValue(HashMap<Integer, String> map, String value) {
+        return map.containsValue(value);
+    }
+
+
+    public static void main(String[] args) {
+        HashMap<Integer, String> colorMap = getColorMap("Red", "Green");
+
+        boolean hasKey2 = hasKey(colorMap, 2);
+
+        boolean hasValueGreen = hasValue(colorMap, "Green");
+
+        boolean hasValueWhite = hasValue(colorMap, "White");
+
+    }
+
+}
+
+// create method to get value at specified position
+
+// create method to print map as value and key
+//ex: Red 1
+//    Blue 2
+
