@@ -1,6 +1,7 @@
 package day25;
 
 import java.util.HashMap;
+import java.util.Map;
 
 public class Task2 {
     // create method that return Map as position and color
@@ -27,6 +28,20 @@ public class Task2 {
         return map.containsValue(value);
     }
 
+    // create method to get value at specified position
+    public static String getValue(HashMap<Integer, String> map, Integer key) {
+        return map.get(key);
+    }
+
+    //// create method to print map as value and key
+    ////ex: Red 1
+    ////    Blue 2
+    public static void printColors(HashMap<Integer, String> colors) {
+        for(Map.Entry<Integer, String> entry : colors.entrySet()) {
+            System.out.println(entry.getValue() + " " + entry.getKey());
+        }
+    }
+
 
     public static void main(String[] args) {
         HashMap<Integer, String> colorMap = getColorMap("Red", "Green");
@@ -37,13 +52,15 @@ public class Task2 {
 
         boolean hasValueWhite = hasValue(colorMap, "White");
 
+        String valueAtPosition1 = getValue(colorMap, 1);
+        String valueAtPosition5 = getValue(colorMap, 5);
+
+        printColors(colorMap);
+
     }
 
 }
 
-// create method to get value at specified position
 
-// create method to print map as value and key
-//ex: Red 1
-//    Blue 2
+
 

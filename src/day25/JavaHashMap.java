@@ -55,7 +55,8 @@ public class JavaHashMap {
         Set<String> allKeysInMap = map.keySet();
 //        System.out.println(allKeysInMap);
 
-//        public Set entrySet(): This method is used to return the Set view containing all the keys and values.
+//        public Set entrySet():
+//        This method is used to return the Set view containing all the keys and values.
         Set<Map.Entry<String, Double>> entries = map.entrySet();
         //Entry<String, Double>
         // is build-in reference type that stores key and value
