@@ -11,15 +11,17 @@ class Person {
     String surname;
     int age;
 
-    public int getBirthYear() {
+    // when you have methods that are not static
+    // they are instance methods
+    int getBirthYear() {
         return 2020 - age;
     }
 
-    public String getInitials() {
+    String getInitials() {
         return name.charAt(0) + "." + surname.charAt(0) + ".";
     }
 
-    public void print() {
+    void print() {
         System.out.println("Name: " + name);
         System.out.println("Surname: " + surname);
         System.out.println("Age: " + age);
@@ -38,7 +40,6 @@ public class Ex1 {
         int birthYearYusuf = person1.getBirthYear();
         String initials = person1.getInitials();
         person1.print();
-
 
 
         Person person2 = new Person();
