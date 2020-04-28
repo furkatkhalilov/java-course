@@ -21,7 +21,7 @@ public class Task2 {
         user3Profile.email = "+1 000 77 99";
         user3Profile.phone = "eren@lost.com";
         user3Profile.nickname = "eresha";
-
+                              // User user;
         User user3 = createUser("erentitan", "909090", user3Profile);
         printAttributes(user3);
     }
