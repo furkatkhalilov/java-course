@@ -14,7 +14,7 @@ every time when customer consumes electricity. it should add to totalWph
 //ex: customer.consumeElectricity(100);
       customer.consumeElectricity(200);
       customer.consumeElectricity(50);
-      
+
    // totalWph = 350 ?
 
 create method in ElectricityAccount that calculates bill
