@@ -12,4 +12,5 @@ create class Task1, and create a Customer with all attributes and print/debug;
 create method in customer as "consumeElectricity" with parameter as (wph)
 every time when customer consumes electricity. it should add to totalWph
 
-create method in ElectricityAccount
+create method in ElectricityAccount that calculates bill
+where bill is rate * totalWph
