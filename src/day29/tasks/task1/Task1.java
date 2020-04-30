@@ -16,6 +16,8 @@ public class Task1 {
         student1.maxCredit = 5;
         student1.takeLesson(math);
         student1.takeLesson(physics);
+        student1.takeLesson(computerScience);
+
 
         Student student2 = new Student();
         student2.name = "Max";
