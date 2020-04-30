@@ -8,7 +8,17 @@ public class Student {
     ArrayList<Lesson> lessons = new ArrayList<>();
 
     void takeLesson(Lesson subject) {
-        lessons.add(subject);
+        // calculate how many credits we have currently
+        int currentTotalCredit = 0;
+        for(Lesson lesson : lessons) {
+            currentTotalCredit += lesson.credit;
+        }
+
+        // control maximum credit that student can have
+        if(currentTotalCredit < maxCredit) {
+            lessons.add(subject);
+        }
+
     }
 
 }
