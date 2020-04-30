@@ -1,0 +1,4 @@
+create class Lesson, with fields:
+String name,
+int credit=1-3,
+double grade=0-100
