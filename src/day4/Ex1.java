@@ -37,5 +37,12 @@ public class Ex1 {
 //        System.out.println( "Average result" );
 //        System.out.println(avg);
 
+        name: if(true){
+
+            name2: if(true){
+                break name;
+            }
+
+        }
     }
 }
