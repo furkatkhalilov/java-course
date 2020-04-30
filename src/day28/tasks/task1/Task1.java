@@ -6,10 +6,15 @@ public class Task1 {
         customer1.name = "Danny";
 
         ElectricityAccount account = new ElectricityAccount();
-        account.wph = 200;
-        account.bill = 500;
 
         customer1.electricityAccount = account;
+
+        customer1.consumeElectricity(100);
+        customer1.consumeElectricity(50);
+        customer1.consumeElectricity(200);
+
+        double totalBill = customer1.electricityAccount.calculateBill();
+        System.out.println(customer1.name + ": $" + totalBill);
 
     }
 }
