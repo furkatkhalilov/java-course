@@ -10,7 +10,7 @@ create class Customer with instance variables:
 create class Task1, and create a Customer with all attributes and print/debug;
 
 create method in Customer as "consumeElectricity" with parameter as (wph)
-every time when customer consumes electricity. it should add to totalWph
+every time when customer consumes electricity, it should add to totalWph
 //ex: customer.consumeElectricity(100);
       customer.consumeElectricity(200);
       customer.consumeElectricity(50);
