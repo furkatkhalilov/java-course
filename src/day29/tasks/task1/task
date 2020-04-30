@@ -13,3 +13,9 @@ create class Task1, create 2 instances of Student class
 
 ***Part 4***
 in class Task1, create 5 instances of Lesson class
+
+***Part 5***
+create method in Student class named takeLesson(Lesson lesson)
+which will add lesson to student lessons list
+//assign Lessons to students,
+
