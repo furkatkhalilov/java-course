@@ -10,4 +10,8 @@ public class Rectangle {
         return length * width;
     }
 
+
+    public static void print(){
+        System.out.println("You are using Rectangle print");
+    }
 }

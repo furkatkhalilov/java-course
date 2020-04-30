@@ -1,0 +1,12 @@
+***Part 1***
+create class Login with attributes
+
+1. username
+2. password
+
+***Part 2***
+create class Task2, create two objects of Login class
+
+***Part 3***
+create instance method in Login to check
+if username and password are not empty and not null
