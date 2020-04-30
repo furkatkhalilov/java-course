@@ -19,6 +19,7 @@ public class Login {
 
         return login;
     }
+
     public static Login createUser(String u, String p) {
         Login login = new Login();
         login.username = u;
@@ -34,14 +35,12 @@ public class Login {
     if username and password are not empty and not null
      */
     public void check() {
-        boolean invalidUsername = username == null && username.isEmpty();
-        if(invalidUsername) {
-            System.out.println("user name is null or empty");
+        if(StringUtils.isBlank(username)) {
+            System.out.println("Username is null or empty");
         }
 
-        boolean invalidPassword = password == null && password.isEmpty();
-        if(invalidPassword) {
-            System.out.println(" passord is null or empty");
+        if(StringUtils.isBlank(password)) {
+            System.out.println("Password is null or empty");
         }
     }
 
