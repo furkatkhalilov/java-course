@@ -7,6 +7,11 @@ public class ElectricityAccount {
 
     //  bill is rate * totalWph
     double calculateBill() {
+        if(totalWph < 0) {
+            System.out.println("Account is suspended, smtg wrong with you account!!!");
+            return 0;
+//            throw new RuntimeException("Account is suspended, smtg wrong with you account!!!");
+        }
         bill = rate * totalWph;
 
         return bill;

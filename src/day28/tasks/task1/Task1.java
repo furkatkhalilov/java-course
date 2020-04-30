@@ -14,6 +14,8 @@ public class Task1 {
         customer1.consumeElectricity(200);
         customer1.consumeElectricity(50);
 
+        customer1.consumeElectricity(-10000);
+
         double customer1bill = customer1.electricityAccount.calculateBill();
         System.out.println("Customer: " + customer1.name);
         System.out.println("Total Bill: $" + customer1bill);
