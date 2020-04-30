@@ -15,8 +15,10 @@ public class Student {
         }
 
         // control maximum credit that student can have
-        if(currentTotalCredit < maxCredit) {
+        if(currentTotalCredit + subject.credit < maxCredit) {
             lessons.add(subject);
+        }else {
+            System.out.println("You've already taken to many lessons!!!");
         }
 
     }
