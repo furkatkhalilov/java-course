@@ -19,3 +19,8 @@ create method in Student class named takeLesson(Lesson lesson)
 which will add lesson to student lessons list
 //assign Lessons to students,
 
+***Part 5***
+1. add field to Student class, maxCredit,
+which will control maximum credit that student can have
+2. in takeLesson method, check for credit amount
+

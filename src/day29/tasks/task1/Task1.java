@@ -13,9 +13,15 @@ public class Task1 {
 
         Student student1 = new Student();
         student1.name = "John";
+        // student1.maxCredit = 5;
+        student1.takeLesson(math);
+        student1.takeLesson(physics);
 
         Student student2 = new Student();
         student2.name = "Max";
+        // student2.maxCredit = 7;
+        student2.takeLesson(science);
+        student2.takeLesson(chemistry);
 
 
     }
