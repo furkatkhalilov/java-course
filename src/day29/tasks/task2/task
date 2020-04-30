@@ -17,3 +17,6 @@ which checks if string is null or empty
 str = null
 str = ""
 str = "         "
+
+***Part 5***
+use StringUtils.isBlank in Login check
