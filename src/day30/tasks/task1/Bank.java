@@ -5,18 +5,20 @@ public class Bank {
     int serial;
     boolean trustworthiness;
 
+    // First
     public Bank() {
         name = "Unknown";
     }
 
+    // Second
     public Bank(String name, int serial) {
         this.name = name;
         this.serial = serial;
     }
 
+    // Third
     public Bank(String name, int serial, boolean trustworthiness) {
-        this.name = name;
-        this.serial = serial;
+        this(name, serial);
         this.trustworthiness = trustworthiness;
     }
 
