@@ -9,13 +9,11 @@ public class Bank {
     public Bank() {
         name = "Unknown";
     }
-
     // Second
     public Bank(String name, int serial) {
         this.name = name;
         this.serial = serial;
     }
-
     // Third
     public Bank(String name, int serial, boolean trustworthiness) {
         this(name, serial);
