@@ -5,15 +5,38 @@ import org.junit.Test;
 
 public class JavaJUnit {
 
+
     @Test
-    public void testArea(){
-        Rectangle rect1 = new Rectangle();
-        rect1.length = 5;
-        rect1.width = 10;
+    public void testGetArea() {
+        Rectangle rect1 = new Rectangle(5, 10);
+        int actualArea = rect1.getArea();
 
-        int area = rect1.getArea();
-
-        Assert.assertEquals("area calculation is not right", 30, area);
+        Assert.assertEquals("getArea method is not correct", 50, actualArea);
     }
+
+    @Test
+    public void testSum() {
+        int sum = 10 + 10;
+
+        Assert.assertEquals(20, sum);
+    }
+
+    @Test
+    public void testTrue() {
+        boolean actual = "Elma is good".contains("Elma"); //(true && true) || (false && true);
+
+        Assert.assertTrue(actual);
+//        Assert.assertEquals(true, actual);
+    }
+
+    @Test
+    public void testNull() {
+        Rectangle rect1 = new Rectangle(1,2);
+
+        Assert.assertNotNull("Maybe you forget to initialize rect1", rect1);
+
+        int actualArea = rect1.getArea();
+    }
+
 
 }
