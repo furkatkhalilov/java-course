@@ -28,4 +28,32 @@ public class Person {
     private int getAge() {
         return 20;
     }
+
+
+
+    public boolean checkUsernameAndPassword(String username, String password){
+        //check username and password for empty
+        if(usernameNameEmpty()){
+            return false;
+        }
+        //check password has digits
+        //check password has Uppercase letter
+        //check password has Lowercase letter
+        //check password has symbols
+        if(passwordHasSymbols()){
+            return false;
+        }
+
+        return true;
+    }
+
+    private boolean passwordHasSymbols() {
+        return false;
+    }
+
+    private boolean usernameNameEmpty() {
+        return false;
+    }
+
+
 }
