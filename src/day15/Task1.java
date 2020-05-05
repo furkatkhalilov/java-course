@@ -1,7 +1,7 @@
 package day15;
 
 public class Task1 {
-    // task
+    // q1
     // print grid of "#" with 10 rows and 10 columns
     // using nested loop
     /*
