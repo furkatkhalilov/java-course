@@ -1,4 +1,4 @@
-package day32.nonAccessModifier.example;
+package day32.example;
 
 public class UITestAmazon {
     public final static String url = "https://www.amazon.com/";

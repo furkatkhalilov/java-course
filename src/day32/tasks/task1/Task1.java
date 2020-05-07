@@ -1,4 +1,4 @@
-package day32.nonAccessModifier.tasks.task1;
+package day32.tasks.task1;
 
 import java.util.Arrays;
 

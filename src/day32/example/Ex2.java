@@ -1,4 +1,4 @@
-package day32.nonAccessModifier.example;
+package day32.example;
 
 import java.util.ArrayList;
 
