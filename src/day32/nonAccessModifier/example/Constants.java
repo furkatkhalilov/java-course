@@ -1,4 +1,4 @@
-package day32.nonAccessModifier;
+package day32.nonAccessModifier.example;
 
 public class Constants {
     public static final double pi = 3.14;

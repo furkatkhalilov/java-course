@@ -1,4 +1,4 @@
-package day32.nonAccessModifier;
+package day32.nonAccessModifier.example;
 
 public class Ex1 {
 
