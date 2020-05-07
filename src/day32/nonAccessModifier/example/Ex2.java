@@ -10,9 +10,10 @@ public class Ex2 {
 
     public static void main(String[] args) {
         System.out.println("Replace: " + name.replace("i", "o"));
-        //name = name.replace("i", "o");
-        name.substring(0,1);
         System.out.println("Name: " + name);
+
+        String changedName = name.replace("i", "o");
+        System.out.println("Changed Name: " + changedName);
 
 
 //
