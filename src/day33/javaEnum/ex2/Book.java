@@ -9,7 +9,6 @@ public class Book {
         this.bookCategory = bookCategory;
     }
 
-    @Override
     public String toString() {
         return "\nBook" +
                 "\nname: " + name +
