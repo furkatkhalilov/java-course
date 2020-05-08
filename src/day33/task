@@ -8,9 +8,9 @@ Which of the following main method is correct one?
 
     4)static final void main3(String[] args) {}
 
-    5)static void main4(String[] args) {}
+    5)static void main(String[] args) {}
 
-    6)void main5(String[] args) {}
+    6)void main(String[] args) {}
 
     7)public static void main(String a[]) {}
 
