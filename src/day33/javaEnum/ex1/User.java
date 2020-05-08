@@ -1,4 +1,4 @@
-package day33.javaEnum;
+package day33.javaEnum.ex1;
 
 
 public class User {
