@@ -1,0 +1,19 @@
+Which of the following main method is correct one?
+
+    1)public final static void main(String[] args) {}
+
+    2)public static final void main(String[] args) {}
+
+    3)protected static final void main(String[] args) {}
+
+    4)static final void main3(String[] args) {}
+
+    5)static void main4(String[] args) {}
+
+    6)void main5(String[] args) {}
+
+    7)public static void main(String a[]) {}
+
+    8)public static void main(String a) {}
+
+    9)public static void main(String... a) {}
