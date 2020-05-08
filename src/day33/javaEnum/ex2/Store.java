@@ -16,8 +16,19 @@ public class Store {
         ArrayList<Book> books = getBooks();
 
         for(Book book : books) {
-            if(book.getBookCategory() == BookCategory.FANTASY) {
-                System.out.println(book);
+//            if(book.getBookCategory() == BookCategory.FANTASY) {
+//                System.out.println(book);
+//            }
+            switch(book.getBookCategory()) {
+                case FANTASY:
+                    System.out.println("My Fantasy Books");
+                    System.out.println(book);
+                    break;
+                case SCIENCE_FICTION:
+                    System.out.println("My Fantasy Science Fiction");
+                    System.out.println(book);
+                    break;
+
             }
         }
     }
