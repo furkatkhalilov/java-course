@@ -30,5 +30,5 @@
 * [Day 29.](src/day29) Non-static method & static method
 * [Day 30.](src/day30) Constructors, this, Test
 * [Day 31.](src/day31) Access Modifiers
-* [Day 32.](src/day32) 
-* [Day 33.](src/day33)   
+* [Day 32.](src/day32) Non-Access Modifiers
+* [Day 33.](src/day33) Main method arguments, Enum, recursion  

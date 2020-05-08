@@ -1,4 +1,4 @@
-package day33;
+package day33.tasks.task1;
 
 //Which of the following main methods is correct one?
 public class Task1 {

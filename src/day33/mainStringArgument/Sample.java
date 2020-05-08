@@ -1,4 +1,4 @@
-package day33;
+package day33.mainStringArgument;
 
 public class Sample {
 
