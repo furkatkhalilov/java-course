@@ -1,6 +1,8 @@
 package day35.example.creatingAndFormatting;
 
 import java.time.*;
+import java.time.format.DateTimeFormatter;
+import java.time.format.FormatStyle;
 
 public class JavaLocalDateTime {
     //LocalDateTime - Contains both a date and time but no time zone.(00:00 01/01/2021 new year, 20:10 05/11/2020 iftar)
@@ -25,6 +27,15 @@ public class JavaLocalDateTime {
         int hour = localDateTime.getHour();
         int minute = localDateTime.getMinute();
         int second = localDateTime.getSecond();
+
+
+        System.out.println("Short DateTime: " + localDateTime.format(DateTimeFormatter.ofLocalizedDateTime(FormatStyle.SHORT)));
+        System.out.println("Medium DateTime: " + localDateTime.format(DateTimeFormatter.ofLocalizedDateTime(FormatStyle.MEDIUM)));
+//        System.out.println("Long DateTime: " + localDateTime.format(DateTimeFormatter.ofLocalizedDateTime(FormatStyle.LONG)));
+//        System.out.println("Full DateTime: " + localDateTime.format(DateTimeFormatter.ofLocalizedDateTime(FormatStyle.FULL)));
+
+        System.out.println("HH:mm MM dd yyy: " + localDateTime.format(DateTimeFormatter.ofPattern("HH:mm MM dd yyy")));
+
     }
 
 }
