@@ -3,6 +3,8 @@ package day35.example.creatingAndFormatting;
 import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.time.Month;
+import java.time.format.DateTimeFormatter;
+import java.time.format.FormatStyle;
 
 public class JavaLocalDate {
 
@@ -22,6 +24,13 @@ public class JavaLocalDate {
 
         int year = localDate.getYear();
 
+
+        System.out.println("Short Date: " + localDate.format(DateTimeFormatter.ofLocalizedDate(FormatStyle.SHORT)));
+        System.out.println("Medium Date: " + localDate.format(DateTimeFormatter.ofLocalizedDate(FormatStyle.MEDIUM)));
+        System.out.println("Long Date: " + localDate.format(DateTimeFormatter.ofLocalizedDate(FormatStyle.LONG)));
+        System.out.println("Full Date: " + localDate.format(DateTimeFormatter.ofLocalizedDate(FormatStyle.FULL)));
+
+        System.out.println("MM dd yyy: " + localDate.format(DateTimeFormatter.ofPattern("yyy.MM.dd")));
 
         //just fyi coders/programmes/ developers day => 256th of year
 
