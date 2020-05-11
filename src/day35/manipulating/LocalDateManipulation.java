@@ -1,4 +1,4 @@
-package day35.example.manipulating;
+package day35.manipulating;
 
 import org.junit.Assert;
 import org.junit.Test;

@@ -1,4 +1,4 @@
-package day35.example.creatingAndFormatting;
+package day35.creatingAndFormatting;
 
 import java.time.*;
 import java.time.format.DateTimeFormatter;

@@ -1,4 +1,4 @@
-package day35.example;
+package day35;
 
 import java.time.LocalDate;
 import java.time.LocalTime;

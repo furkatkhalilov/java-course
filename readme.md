@@ -31,4 +31,6 @@
 * [Day 30.](src/day30) Constructors, this, Test
 * [Day 31.](src/day31) Access Modifiers
 * [Day 32.](src/day32) Non-Access Modifiers
-* [Day 33.](src/day33) Main method arguments, Enum, recursion  
+* [Day 33.](src/day33) Main method arguments, Enum, recursion
+* Day 34. Terminal, no code, just video on coAssamble  
+* [Day 35.](src/day35) java.time.* Date and Time manipulation in Java

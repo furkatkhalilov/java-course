@@ -1,10 +1,10 @@
-package day35.example;
+package day35;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 
-public class Ex1 {
+public class ComparingDateAndTime {
 
     public static void main(String[] args) {
         LocalDate today = LocalDate.now();

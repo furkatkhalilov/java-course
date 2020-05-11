@@ -1,4 +1,4 @@
-package day35.example.periodAndDuration;
+package day35.periodAndDuration;
 
 import java.time.Duration;
 import java.time.LocalTime;
