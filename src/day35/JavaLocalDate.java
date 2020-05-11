@@ -13,7 +13,6 @@ public class JavaLocalDate {
         LocalDate localDate1 = LocalDate.of(2020, 05, 24);
         LocalDate localDate2 = LocalDate.of(2020, Month.MAY, 24);
 
-
         int dayOfMonth = localDate.getDayOfMonth();
         DayOfWeek dayOfWeek = localDate.getDayOfWeek();
         int dayOfYear = localDate.getDayOfYear();
