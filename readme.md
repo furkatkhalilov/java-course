@@ -34,3 +34,4 @@
 * [Day 33.](src/day33) Main method arguments, Enum, recursion
 * Day 34. Terminal, no code, just video on coAssamble  
 * [Day 35.](src/day35) java.time.* Date and Time manipulation in Java
+* [Day 36.](src/day36) Try, Catch and Finally
