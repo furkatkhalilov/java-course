@@ -1,6 +1,6 @@
 package day37.throwingException;
 
-public class Ex2 {
+public class UncheckedThrowExample {
 
     //username should have at least length of 6
     public static void checkUsername(String username) {
