@@ -5,7 +5,7 @@ public class JavaTryCatchFinally {
     public static void main(String[] args) {
         // null, "", "          "
 
-        String str = "Dos";
+        String str = "";
 
         try {// try block to test you statements
             char charAt = str.charAt(0);
