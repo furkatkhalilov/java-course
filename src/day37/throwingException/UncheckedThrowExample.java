@@ -16,7 +16,9 @@ public class UncheckedThrowExample {
 
     public static void main(String[] args) {
         String username = null;
+
         checkUsername(username);
+
 
         System.out.println("sign up successfully, you have good username");
 

@@ -3,7 +3,7 @@ package day37.throwingException;
 public class CheckedThrowExample {
 
     public static void goOutside(int temperature) throws Exception {
-        if(temperature < 20){//very cold weather
+        if(temperature < 20) {//very cold weather
             throw new Exception("Its really cold outside, wear something warm");
         }
 
@@ -14,7 +14,9 @@ public class CheckedThrowExample {
         try {
             goOutside(10);
         } catch(Exception e) {
-            e.printStackTrace();
+//            e.printStackTrace();
+            System.out.println(e.getMessage());
+            System.out.println("Stay at home and play basketball on ps4");
         }
     }
 }
