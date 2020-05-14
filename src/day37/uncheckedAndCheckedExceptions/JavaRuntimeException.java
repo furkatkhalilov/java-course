@@ -1,4 +1,4 @@
-package day37.examples;
+package day37.uncheckedAndCheckedExceptions;
 
 public class JavaRuntimeException {
 
