@@ -7,13 +7,11 @@ public class Task2 {
 
     public static void main(String[] args) {
         Task2 t2 = new Task2();
-        ArrayList<Double> prices = t2.getPrices();
 
+        ArrayList<Double> prices = t2.getPrices();
         System.out.println(prices);
 
         double average = t2.priceAverage(prices);
-
-
         System.out.println("Average:" + average);
     }
 
@@ -50,7 +48,7 @@ public class Task2 {
         if(sum == 0) {
             throw new ArithmeticException("Sum is zero, there is no average");
         }
-        
+
         double average = sum / prices.size();
 
         return average;
