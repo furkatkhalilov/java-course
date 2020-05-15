@@ -1,10 +1,12 @@
 package day37.throwingException;
 
+import java.io.IOException;
+
 public class CheckedThrowExample {
 
     public static void goOutside(int temperature) throws Exception {
         if(temperature < 20) {//very cold weather
-            throw new Exception("Its really cold outside, wear something warm");
+            throw new IOException("Its really cold outside, wear something warm");
         }
 
         System.out.println("Playing basketball outside");
