@@ -13,6 +13,10 @@ class Student {
         examResult = 95.7;
     }
 
+    public static final void student(){
+
+    }
+
     //overloaded constructor
     public Student(String fname, String lname, double result) {
         firstName = fname;
