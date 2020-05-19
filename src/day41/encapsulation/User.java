@@ -1,7 +1,14 @@
 package day41.encapsulation;
 
+/*
+To achieve encapsulation in Java
+Declare the variables of a class as private.
+Provide public setter and getter methods to modify and view the variables values.
+
+ */
 public class User {
 
+    //Declare the variables of a class as private.
     private long id;
     private String username;
     private String password;
@@ -24,6 +31,8 @@ public class User {
         setPassword(password);
     }
 
+    //Provide public setter and getter methods to modify and view the variables values.
+
     // to make write-only, remove all get methods
     public void setId(long id) {
         this.id = id;
@@ -36,10 +45,10 @@ public class User {
     public void setPassword(String password) {
         //password is valid only when length > 6
         if(password.length() < 6) {
+            //unchecked/runtime exceptions are not required to handle
             throw new IllegalArgumentException("Password length is too short, provide longer password!");
         }
 
-        //
         this.password = password;
     }
 
@@ -56,8 +65,10 @@ public class User {
 
     // assume if id = 1, it is ADMIN, and we do not show password of admin
     public String getPassword() {
-        if(this.id == 1){
+        if(this.id == 1) {
+            //unchecked/runtime exceptions are not required to handle
             throw new RuntimeException("you cannot see password of admin");
+
         }
         return password;
     }
