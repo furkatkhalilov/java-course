@@ -20,12 +20,11 @@ public class User {
 
     }
 
-//    public User(long id, String username, String password) {
+    //    public User(long id, String username, String password) {
 //        setId(id);
 //        setUsername(username);
 //        setPassword(password);
 //    }
-
 
     public User(long id, String username, String password) {
         this.id = id;
@@ -56,8 +55,6 @@ public class User {
     }
 
     // to make read-only, remove all set methods
-
-
     public long getId() {
         return id;
     }
@@ -76,21 +73,18 @@ public class User {
         return password;
     }
 
-
     //for primitive boolean, "is" prefix is used
     public boolean isActive() {
         return active;
     }
-
     public void setActive(boolean active) {
         this.active = active;
     }
 
-    //for primitive boolean, sometimes "has" prefix is used
+    //for primitive boolean, sometimes "has/**/" prefix is used
     public boolean hasCertificate() {
         return certificate;
     }
-
     public void setCertificate(boolean certificate) {
         this.certificate = certificate;
     }
@@ -99,7 +93,6 @@ public class User {
     public Boolean getSignedIn() {
         return signedIn;
     }
-
     public void setSignedIn(Boolean signedIn) {
         this.signedIn = signedIn;
     }
