@@ -9,5 +9,6 @@ public class Ex1 {
         vepa.setId(14);
         vepa.setUsername("vepa@techno");
         vepa.setPassword("10204542");
+
     }
 }

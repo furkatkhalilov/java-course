@@ -12,6 +12,9 @@ public class User {
     private long id;
     private String username;
     private String password;
+    private boolean active;
+    private Boolean signedIn;
+    private boolean certificate;
 
     public User() {
 
@@ -72,4 +75,33 @@ public class User {
         }
         return password;
     }
+
+
+    //for primitive boolean, "is" prefix is used
+    public boolean isActive() {
+        return active;
+    }
+
+    public void setActive(boolean active) {
+        this.active = active;
+    }
+
+    //for primitive boolean, sometimes "has" prefix is used
+    public boolean hasCertificate() {
+        return certificate;
+    }
+
+    public void setCertificate(boolean certificate) {
+        this.certificate = certificate;
+    }
+
+    //for wrapper Boolean "get" prefix is used
+    public Boolean getSignedIn() {
+        return signedIn;
+    }
+
+    public void setSignedIn(Boolean signedIn) {
+        this.signedIn = signedIn;
+    }
+
 }

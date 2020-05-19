@@ -12,12 +12,14 @@ public class Registration {
         ///user.password = "2321312";
 
 
-        user = new User(5, "dos@techno","1355");
+        user = new User(5, "dos@techno", "1352345");
 
 
         System.out.println("id: " + user.getId());
         System.out.println("username: " + user.getUsername());
         System.out.println("password: " + user.getPassword());
+        System.out.println("active: " + user.isActive());
+        System.out.println("certificate: " + user.hasCertificate());
 
 
     }
