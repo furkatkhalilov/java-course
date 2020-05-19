@@ -1,7 +1,5 @@
-package day39.questions;
+package day40.questions;
 
-
-import java.util.Objects;
 
 class User{
     public int id;
