@@ -8,13 +8,13 @@ Create class School with 5 attributes
 and with extra one attribute as List<Student> students(which means you need to create class Student)
  */
 public class School {
+
     private String name;
     private String phoneNumber;
     private String email;
     private String address;
     private String principal;
     private int schoolSize;
-
     private List<Student> students;
 
     public School(String name, String phoneNumber, String email, String address, String principal, int schoolSize) {
