@@ -13,16 +13,31 @@ public class SchoolManagement {
                 "Getty 600",
                 "Fetih",
                 getStudents());
+        school1.setSchoolSize(50);
 
         School school2 = new School("BIL",
                 "+1-555-333-22-11",
                 "info@bil.com",
                 "Main 600",
                 "Dos",
+                5,
                 getStudents());
+
+
+        School school3 = new School("MIT",
+                "+1-876-564-85-36",
+                "mit@it.com",
+                "Boston 12",
+                "Mike",
+                2);
+        for(Student student : getStudents()) {
+            school3.registerStudent(student);
+        }
+
 
         System.out.println(school1);
         System.out.println(school2);
+        System.out.println(school3);
 
     }
 

@@ -1,5 +1,6 @@
 package day42.tasks.task2;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /*
@@ -12,8 +13,19 @@ public class School {
     private String email;
     private String address;
     private String principal;
+    private int schoolSize;
 
     private List<Student> students;
+
+    public School(String name, String phoneNumber, String email, String address, String principal, int schoolSize) {
+        this.name = name;
+        this.phoneNumber = phoneNumber;
+        this.email = email;
+        this.address = address;
+        this.principal = principal;
+        this.schoolSize = schoolSize;
+        this.students = new ArrayList<>();
+    }
 
     public School(String name, String phoneNumber, String email, String address, String principal, List<Student> students) {
         this.name = name;
@@ -24,6 +36,35 @@ public class School {
         this.students = students;
     }
 
+    public School(String name, String phoneNumber, String email, String address, String principal, int schoolSize, List<Student> students) {
+        this.name = name;
+        this.phoneNumber = phoneNumber;
+        this.email = email;
+        this.address = address;
+        this.principal = principal;
+        this.schoolSize = schoolSize;
+        this.students = students;
+    }
+
+    public int getSchoolSize() {
+        return schoolSize;
+    }
+
+    public void setSchoolSize(int schoolSize) {
+        this.schoolSize = schoolSize;
+    }
+
+    public void registerStudent(Student student) {
+//        if(students.size() < getSchoolSize()) {
+//            students.add(student);
+//        }else {
+//            throw new RuntimeException("You exceed student limit, cant register more students");
+//        }
+        if(students.size() >= getSchoolSize()) {
+            throw new RuntimeException("You exceed student limit, cant register more students");
+        }
+        students.add(student);
+    }
 
     public String toString() {
         return "School{" +
