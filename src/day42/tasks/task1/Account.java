@@ -27,7 +27,7 @@ public class Account {
     public void withdraw(double money) {
         //balance is less than money, assuming bank doesnt allow negative balance
         if(balance < money) {
-            throw new RuntimeException("cant withdraw $" + money + ", balance is: $" + balance);
+            throw new RuntimeException("cant withdraw " + currency.getSymbol() + money + ", balance is: " + currency.getSymbol() + balance);
         }
 
         balance -= money;
@@ -35,7 +35,7 @@ public class Account {
 
     public void deposit(double money) {
         if(money > 5000) {
-            throw new RuntimeException("$" + money + " exceeds daily deposit limit, Please visit your bank clerk");
+            throw new RuntimeException(currency.getSymbol() + "" + money + " exceeds daily deposit limit, Please visit your bank clerk");
         }
         balance += money;
     }
