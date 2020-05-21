@@ -23,12 +23,23 @@ public class Account {
         return balance;
     }
 
-    public void setBalance(double balance) {
-        this.balance = balance;
+    //withdraw and deposit
+    public void withdraw(double money) {
+        //balance is less than money, assuming bank doesnt allow negative balance
+        if(balance < money) {
+            throw new RuntimeException("cant withdraw $" + money + ", balance is: $" + balance);
+        }
+
+        balance -= money;
     }
 
+    public void deposit(double money) {
+        if(money > 5000) {
+            throw new RuntimeException("$" + money + " exceeds daily deposit limit, Please visit your bank clerk");
+        }
+        balance += money;
+    }
 
-    @Override
     public String toString() {
         return "Account{" +
                 "number='" + number + '\'' +
