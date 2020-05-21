@@ -40,3 +40,4 @@
 * [Day 39.](src/day39) Github
 * [Day 40.](src/day40) Interview Questions(Java, from topics we've passed)
 * [Day 41.](src/day41) APIE: Encapsulation
+* [Day 42.](src/day41) Encapsulation tasks
