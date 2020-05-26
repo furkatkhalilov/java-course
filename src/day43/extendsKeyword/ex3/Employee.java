@@ -1,7 +1,7 @@
 package day43.extendsKeyword.ex3;
 
 public class Employee {
-    public String name;
+    private String name;
     public double salary;
     public double coef; //epi
 
@@ -11,7 +11,12 @@ public class Employee {
         this.coef = coef;
     }
 
-    public double calculateSalary(){
+    public double calculateSalary() {
         return this.salary * this.coef;
+    }
+
+    @Override
+    public String toString() {
+        return this.name + ": $" + this.calculateSalary();
     }
 }
