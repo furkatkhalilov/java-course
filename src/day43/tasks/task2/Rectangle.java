@@ -9,4 +9,20 @@ public class Rectangle extends Shape {
         this.length = length;
     }
 
+
+    public double getWidth() {
+        return width;
+    }
+
+    public double getLength() {
+        return length;
+    }
+
+    @Override
+    public String toString() {
+        return "Rectangle{" +
+                "width=" + width +
+                ", length=" + length +
+                '}';
+    }
 }
