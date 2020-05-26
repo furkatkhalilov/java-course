@@ -3,3 +3,7 @@ Shape
   Circle
   Rectangle
     Square
+
+Part 2: Add attributes to your shapes(radius, width, length)
+
+Part 3: Override toString method in each shape
