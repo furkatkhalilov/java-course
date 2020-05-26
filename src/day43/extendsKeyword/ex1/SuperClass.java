@@ -5,7 +5,11 @@ public class SuperClass {
 
     public String name;
 
+
+    @Override
     public String toString() {
-        return "name='" + name;
+        return "SuperClass{" +
+                "name='" + name + '\'' +
+                '}';
     }
 }
