@@ -1,6 +1,6 @@
 package day43.extendsKeyword.ex2;
 
-public class Apple extends Fruit {
+public class Apple extends Fruit{
 
     //constructor are not inherited
     //but you can reuse them using super keyword

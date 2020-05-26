@@ -1,0 +1,5 @@
+Create hierarchy as in following figure
+Shape
+  Circle
+  Rectangle
+    Square
