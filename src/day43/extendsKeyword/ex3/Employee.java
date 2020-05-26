@@ -1,5 +1,7 @@
 package day43.extendsKeyword.ex3;
 
+import java.util.Scanner;
+
 public class Employee {
     private String name;
     public double salary;
