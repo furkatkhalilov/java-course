@@ -6,4 +6,13 @@ public class Shape {
     public String toString() {
         return "Shape{ no data here }";
     }
+
+    public double getArea() {
+//        new UnsupportedOperationException()
+        throw new RuntimeException("Not Implemented");
+    }
+
+    public double getPerimeter() {
+        throw new RuntimeException("Not Implemented");
+    }
 }
