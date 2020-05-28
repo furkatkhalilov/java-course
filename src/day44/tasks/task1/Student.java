@@ -22,9 +22,10 @@ public class Student extends Person {
 
     @Override
     public String toString() {
-        return "Student{" +
-                "school=" + school +
-                ", fee=" + fee +
-                '}';
+        return "Student" +
+                //"school=" + school +
+                super.toString() +
+                "\nfee: " + fee;
     }
+
 }
