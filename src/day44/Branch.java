@@ -1,4 +1,4 @@
-package day44.tasks.task1;
+package day44;
 
 import java.util.List;
 
