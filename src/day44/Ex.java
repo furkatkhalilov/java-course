@@ -2,7 +2,7 @@ package day44;
 
 import java.util.List;
 
-public class Ex {
+public class Ex{
 
     static List<Integer> numbers;
 
