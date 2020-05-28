@@ -8,8 +8,8 @@ public class Square extends Rectangle {
 
     @Override
     public String toString() {
-        return "Square{" +
-                "side=" + getWidth() +
-                '}';
+        return "\nSquare" +
+                "\nside: " + getWidth() +
+                "\nperimeter: " + getPerimeter() ;
     }
 }

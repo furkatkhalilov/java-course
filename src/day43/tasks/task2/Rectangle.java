@@ -19,10 +19,22 @@ public class Rectangle extends Shape {
     }
 
     @Override
+    public double getArea() {
+        return length * width;
+    }
+
+
+    @Override
+    public double getPerimeter() {
+        return 2 * (length + width);
+    }
+
+    @Override
     public String toString() {
-        return "Rectangle{" +
-                "width=" + width +
-                ", length=" + length +
-                '}';
+        return "\nRectangle" +
+                "\nwidth: " + width +
+                "\nlength: " + length +
+                "\narea: " + getArea() +
+                "\nperimeter: " + getPerimeter() ;
     }
 }
