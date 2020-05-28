@@ -6,8 +6,15 @@ import java.util.List;
 public class School {
     private String name;
     private int maxStudents;
-    private List<Student> students = new ArrayList<>();
-    private List<Employee> employees = new ArrayList<>();
+    private List<Student> students;
+    private List<Employee> employees;
+
+    public School(String name, int maxStudents) {
+        this.name = name;
+        this.maxStudents = maxStudents;
+        students = new ArrayList<>();
+        employees = new ArrayList<>();
+    }
 
     public List<Student> registerStudent(Student student) {
         students.add(student);

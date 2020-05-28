@@ -4,6 +4,13 @@ public class Employee extends Person {
     private School school;
     private double salary;
 
+    public Employee(String name, String address, School school, double salary) {
+        super(name, address);
+
+        this.school = school;
+        this.salary = salary;
+    }
+
     public School getSchool() {
         return school;
     }
@@ -22,7 +29,7 @@ public class Employee extends Person {
 
     @Override
     public String toString() {
-        return "Employee" +
+        return "\n\nEmployee" +
                 //"school=" + school +
                 super.toString() +
                 "\nsalary: " + salary;

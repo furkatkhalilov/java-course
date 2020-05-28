@@ -4,6 +4,14 @@ public class Student extends Person {
     private School school;
     private double fee;
 
+    public Student(String name, String address, School school, double fee) {
+        super(name, address);
+
+        this.school = school;
+        this.fee = fee;
+    }
+
+
     public School getSchool() {
         return school;
     }
@@ -22,7 +30,7 @@ public class Student extends Person {
 
     @Override
     public String toString() {
-        return "Student" +
+        return "\n\nStudent" +
                 //"school=" + school +
                 super.toString() +
                 "\nfee: " + fee;
