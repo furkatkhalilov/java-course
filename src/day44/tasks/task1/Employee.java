@@ -4,10 +4,8 @@ public class Employee extends Person {
     private School school;
     private double salary;
 
-    public Employee(String name, String address, School school, double salary) {
+    public Employee(String name, String address, double salary) {
         super(name, address);
-
-        this.school = school;
         this.salary = salary;
     }
 

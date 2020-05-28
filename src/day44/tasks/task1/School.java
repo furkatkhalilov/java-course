@@ -23,9 +23,14 @@ public class School {
     }
 
     public List<Employee> registerEmployee(Employee employee) {
+        employee.setSchool(this);
         employees.add(employee);
 
         return new ArrayList<>(employees);
+    }
+
+    public String getName() {
+        return name;
     }
 
     @Override

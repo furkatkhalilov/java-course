@@ -31,7 +31,7 @@ public class Student extends Person {
     @Override
     public String toString() {
         return "\n\nStudent" +
-                //"school=" + school +
+                "\nschool: " + school.getName() +
                 super.toString() +
                 "\nfee: " + fee;
     }
