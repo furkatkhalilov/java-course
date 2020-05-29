@@ -1,11 +1,12 @@
 package day45.staticBlock;
 
-public class Application {
+public class Application extends Content {
     public static String name;
 
+    // static block (also called static clause)
     static {
         name = "My App";
-        System.out.println("static block");
+        System.out.println("Static block");
     }
 
     public Application() {
@@ -13,8 +14,9 @@ public class Application {
     }
 
     public static void main(String[] args) {
-        System.out.println("main method");
-    }
+        System.out.println("Main method");
 
+        new Application();
+    }
 
 }
