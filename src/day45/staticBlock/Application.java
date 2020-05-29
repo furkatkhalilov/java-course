@@ -6,15 +6,15 @@ public class Application extends Content {
     // static block (also called static clause)
     static {
         name = "My App";
-        System.out.println("Static block");
+        System.out.println("Application Static block");
     }
 
     public Application() {
-        System.out.println("Constructor");
+        System.out.println("Application Constructor");
     }
 
     public static void main(String[] args) {
-        System.out.println("Main method");
+        System.out.println("Application Main method");
 
         new Application();
     }

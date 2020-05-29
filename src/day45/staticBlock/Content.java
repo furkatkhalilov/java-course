@@ -5,6 +5,7 @@ public class Content {
 
     static {
         url = "techno.study";
+        System.out.println("Content static block");
     }
 
     public Content() {
