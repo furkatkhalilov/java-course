@@ -4,6 +4,7 @@ public class Content {
     public static String url;
 
     static {
+        int a = 10;
         url = "techno.study";
         System.out.println("Content static block");
     }
