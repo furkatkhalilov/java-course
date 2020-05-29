@@ -10,6 +10,7 @@ public class Application extends Content {
     }
 
     public Application() {
+        super();
         System.out.println("Application Constructor");
     }
 
