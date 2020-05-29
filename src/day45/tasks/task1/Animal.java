@@ -10,7 +10,7 @@ public class Animal {
     private Gender gender;
     private String originContinent;
 
-    public Animal(int id, String name, String color, int age, Gender gender, String orgin){
+    public Animal(int id, String name, String color, int age, Gender gender, String orgin) {
         setId(id);
         setName(name);
         setColor(color);
