@@ -1,3 +1,7 @@
 **Part 1**
 create abstract class Animal with abstract methods
 create 3 subclass of animal
+
+**Part 2**
+create fields in Animal
+create non abstract methods in Animal(ex: toString)
