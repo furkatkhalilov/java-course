@@ -1,4 +1,4 @@
-package day46.tasks.task2;
+package day47.tasks.task2;
 
 import java.time.LocalDate;
 import java.time.Period;

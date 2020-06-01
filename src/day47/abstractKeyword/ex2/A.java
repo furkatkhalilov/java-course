@@ -1,4 +1,4 @@
-package day46.abstractKeyword.ex2;
+package day47.abstractKeyword.ex2;
 
 public abstract class A {
 

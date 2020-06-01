@@ -1,4 +1,4 @@
-package day46.tasks.task1;
+package day47.tasks.task1;
 
 //100% abstraction
 public abstract class Food {

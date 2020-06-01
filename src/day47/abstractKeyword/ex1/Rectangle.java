@@ -1,4 +1,4 @@
-package day46.abstractKeyword.ex1;
+package day47.abstractKeyword.ex1;
 
 public class Rectangle extends Shape {
     private double width;
