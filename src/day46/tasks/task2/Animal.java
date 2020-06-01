@@ -63,6 +63,7 @@ public abstract class Animal {
                 "\nid=" + id +
                 "\nname=" + name +
                 "\nwild=" + wild +
-                "\ndob=" + dob;
+                "\ndob=" + dob +
+                "\nage=" + getAge();
     }
 }
