@@ -3,7 +3,9 @@ package day46.abstractKeyword.ex1;
 public class App {
 
     public static void main(String[] args) {
-        //Shape shape = new Shape();
+        //Shape shape = new Shape(); // cannot create instance of abstract
+
+
         //shape.getArea();
         Rectangle rectangle = new Rectangle(5, 4);
         System.out.println(rectangle);
