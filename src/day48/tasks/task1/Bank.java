@@ -10,7 +10,20 @@ public abstract class Bank {
     private double balance;
     private Currency currency;
 
-    abstract double exchange(double amount, Currency currency);
+    public Bank(String name, String address, String email, String phone, double balance, Currency currency) {
+        this.name = name;
+        this.address = address;
+        this.email = email;
+        this.phone = phone;
+        this.balance = balance;
+        this.currency = currency;
+    }
+
+    //buy euro with dollars
+    public abstract double buyEuroWithDollar(double amount);
+
+    //sell euro, get dollars
+    public abstract double sellEuroGetDollar(double amount);
 
     //withdraw and deposit
     public void withdraw(double amount) {
