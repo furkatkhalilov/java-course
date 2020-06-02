@@ -1,7 +1,7 @@
 package day42.tasks.task1;
 
 public enum Currency {
-    USD("$"), EU("€");
+    USD("$"), EUR("€");
 
     private String symbol;
 

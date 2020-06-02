@@ -12,7 +12,7 @@ public class Bank {
 //        account1.setBalance(1000.0);
         System.out.println(account1);
 
-        Account account2 = new Account(Currency.EU);
+        Account account2 = new Account(Currency.EUR);
         account2.setNumber("1883028503");
         System.out.println(account2);
         account2.deposit(9000.0);
