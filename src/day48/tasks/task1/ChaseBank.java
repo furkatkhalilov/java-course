@@ -19,14 +19,14 @@ public class ChaseBank extends Bank {
 
     @Override
     public double buyEuroWithDollar(double amount) {
-        //withdraw(amount);
+        withdraw(amount);
         return amount * buyRate + bonus;
     }
 
     @Override
     public double sellEuroGetDollar(double amount) {
         amount = amount * sellRate + bonus;
-        //deposit(amount);
+        deposit(amount);
         return amount;
     }
 }
