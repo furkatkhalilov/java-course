@@ -4,6 +4,6 @@ public class Baklava extends AbstractSweet {
 
     @Override
     public String taste() {
-        return null;
+        return "sweet";
     }
 }

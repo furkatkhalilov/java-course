@@ -1,5 +1,8 @@
 package day48.polymorph;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Cafe {
 
     public static void main(String[] args) {
@@ -12,10 +15,6 @@ public class Cafe {
         AbstractSweet iceCream8 = new IceCream();
         AbstractFood iceCream9 = new IceCream();
         Object iceCream10 = new IceCream();
-
-
-
-
 
         Baklava baklava1 = new Baklava();
         Baklava baklava2 = new Baklava();
@@ -30,6 +29,11 @@ public class Cafe {
         Baklava baklavas[] = new Baklava[5];
 
 
+
+        List<AbstractFood> listOfFood = new ArrayList<>();
+        listOfFood.add(new Baklava());
+        listOfFood.add(new IceCream());
+        listOfFood.add(new IceCream());
 
 
     }
