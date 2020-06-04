@@ -15,4 +15,5 @@ public class TeslaCar extends AbstractVehicle implements Electric {
     public String drive() {
         return "start fast, no slow down, goes fast";
     }
+
 }
