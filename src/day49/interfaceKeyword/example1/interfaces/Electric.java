@@ -1,4 +1,4 @@
-package day49.interfaceKeyword;
+package day49.interfaceKeyword.example1.interfaces;
 
 
 //to create interface , use keyword 'interface'
