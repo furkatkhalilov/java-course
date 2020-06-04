@@ -6,7 +6,7 @@ package day49.interfaceKeyword.example1.interfaces;
 
 //interfaces provides 100% abstractions
 public interface Electric {
-    //TODO in interface every field is 'public final' by default
+    //TODO in interface every field is 'public final static' by default
     public final int batteryLife = 100;
 
     //interface doesn't allow constructor

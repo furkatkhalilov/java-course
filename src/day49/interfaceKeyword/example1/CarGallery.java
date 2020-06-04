@@ -19,8 +19,7 @@ public class CarGallery {
         cityBus.setEngine(2.5);
         cityBus.setModel("Mercedes");
 
+        int batLife = Electric.batteryLife;
 
-        Electric.print();
-        Math.random();
     }
 }
