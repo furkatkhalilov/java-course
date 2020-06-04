@@ -20,7 +20,5 @@ public class ToyotaPrius extends AbstractVehicle implements Electric, Gas {
     @Override
     public String drive() {
         return "start slow, slow down on stops, goes medium";
-
-
     }
 }

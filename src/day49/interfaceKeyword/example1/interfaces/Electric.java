@@ -3,6 +3,8 @@ package day49.interfaceKeyword.example1.interfaces;
 
 //to create interface , use keyword 'interface'
 //every field and method has public access modifier by default
+
+//interfaces provides 100% abstractions
 public interface Electric {
     //TODO in interface every field is 'public final' by default
     public final int batteryLife = 100;

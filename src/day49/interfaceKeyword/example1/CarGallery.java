@@ -1,5 +1,6 @@
 package day49.interfaceKeyword.example1;
 
+import day49.interfaceKeyword.example1.interfaces.Electric;
 import day49.interfaceKeyword.example1.vehicles.Bus;
 import day49.interfaceKeyword.example1.vehicles.TeslaCar;
 import day49.interfaceKeyword.example1.vehicles.ToyotaPrius;
@@ -18,6 +19,8 @@ public class CarGallery {
         cityBus.setEngine(2.5);
         cityBus.setModel("Mercedes");
 
-        
+
+        Electric.print();
+        Math.random();
     }
 }
