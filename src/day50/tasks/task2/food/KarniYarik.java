@@ -1,4 +1,4 @@
-package day50.tasks.task2;
+package day50.tasks.task2.food;
 
 public class KarniYarik implements Food{
 

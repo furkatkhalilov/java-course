@@ -1,4 +1,4 @@
-package day50.tasks.task2;
+package day50.tasks.task2.food;
 
 public class Kebab implements Food {
 
@@ -8,9 +8,12 @@ public class Kebab implements Food {
     }
 
     public String marinade() {
+        System.out.println("oil, salt");
+
         return "oil, salt";
     }
 
     public void grill() {
+        System.out.println("grill kebab");
     }
 }

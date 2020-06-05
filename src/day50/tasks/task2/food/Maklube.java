@@ -1,4 +1,4 @@
-package day50.tasks.task2;
+package day50.tasks.task2.food;
 
 public class Maklube implements Food {
 
@@ -12,8 +12,10 @@ public class Maklube implements Food {
     }
 
     public void fry() {
+        System.out.println("fry potato");
     }
 
     public void boil() {
+        System.out.println("boil everything in pot");
     }
 }

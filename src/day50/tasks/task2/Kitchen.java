@@ -1,5 +1,7 @@
 package day50.tasks.task2;
 
+import day50.tasks.task2.food.*;
+
 public class Kitchen {
 
     public void cook(Food food) {
@@ -21,7 +23,6 @@ public class Kitchen {
             maklube.fry();
             maklube.design();
             maklube.boil();
-
             System.out.println("Maklube is ready");
         }
     }
