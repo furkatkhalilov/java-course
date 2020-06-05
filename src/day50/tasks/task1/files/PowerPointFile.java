@@ -1,4 +1,4 @@
-package day50.tasks.task1;
+package day50.tasks.task1.files;
 
 public class PowerPointFile implements ReadFile {
 

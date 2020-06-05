@@ -1,5 +1,7 @@
 package day50.tasks.task1;
 
+import day50.tasks.task1.files.*;
+
 public class Finder {
 
     public static void main(String[] args) {
