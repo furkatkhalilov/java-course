@@ -25,5 +25,7 @@ public class Kitchen {
             maklube.boil();
             System.out.println("Maklube is ready");
         }
+
+        food.print();
     }
 }
