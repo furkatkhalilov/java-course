@@ -48,3 +48,4 @@
 * [Day 47.](src/day47) Abstraction: Abstract Class
 * [Day 48.](src/day48) Abstraction: Abstract Class tasks
 * [Day 49.](src/day49) Abstraction: Interface
+* [Day 50.](src/day50) Interface  tasks
