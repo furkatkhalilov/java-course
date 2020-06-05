@@ -12,3 +12,6 @@ Add concrete classes as:
 create class Finder/Explorer with two static methods
 1. main(String[] args) - create multiple files
 2. workWithFile(ReadFile file) - call every methods in ReadFile
+
+
+
