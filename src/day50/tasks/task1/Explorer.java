@@ -18,14 +18,19 @@ public class Explorer {
 
         for(ReadFile file : files) {
             // how to check instance
-//            PowerPointFile ppt = (PowerPointFile) file; //(double)100
-//            System.out.println("ppt slide: " + ppt.showSlides());
+            if(file instanceof PowerPointFile) {
+                PowerPointFile ppt = (PowerPointFile) file; //(double)100
+                System.out.println("ppt slide: " + ppt.showSlides());
+            } else if(file instanceof EXEFile) {
+                EXEFile exe = (EXEFile) file;
+                System.out.println("exe: " + exe.run());
+            }
 
         }
 
     }
 
-    public static void downcasting(){
+    public static void downcasting() {
         ReadFile readFilePPT = new PowerPointFile();
 //        System.out.println("readFilePPT slide: " + readFilePPT.showSlides());
 

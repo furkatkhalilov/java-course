@@ -21,4 +21,8 @@ public class EXEFile implements ReadFile {
     public String close() {
         return "close in WindowsOS .exe";
     }
+
+    public String run(){
+        return "run this program";
+    }
 }
