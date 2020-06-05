@@ -21,4 +21,9 @@ public class PowerPointFile implements ReadFile {
     public String close() {
         return "close with MS PowerPoint .pptx";
     }
+
+
+    public String showSlides(){
+        return "Showing slides";
+    }
 }

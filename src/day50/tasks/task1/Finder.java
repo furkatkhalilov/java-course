@@ -9,12 +9,14 @@ public class Finder {
         PowerPointFile ppt = new PowerPointFile();
         DMGFile dmg = new DMGFile();
         EXEFile exe = new EXEFile();
-
+//
         workWithFile(txt);
         workWithFile(ppt);
+//        workWithFile(dmg);
+//        workWithFile(exe);
     }
 
-    public static void workWithFile(ReadFile file){
+    public static void workWithFile(ReadFile file) {
         System.out.println();
         System.out.println(file.open());
         System.out.println(file.read());
@@ -22,4 +24,5 @@ public class Finder {
         System.out.println(file.save());
         System.out.println(file.close());
     }
+
 }
