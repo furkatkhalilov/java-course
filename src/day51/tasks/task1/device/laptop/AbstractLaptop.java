@@ -33,4 +33,13 @@ public abstract class AbstractLaptop extends AbstractDevice {
     public void setDisplayType(DisplayType displayType) {
         this.displayType = displayType;
     }
+
+
+    @Override
+    public String toString() {
+        return super.toString()+
+                "\nRAM:" + RAM +
+                "\nscreenSize: " + screenSize +
+                "\ndisplayType:" + displayType;
+    }
 }

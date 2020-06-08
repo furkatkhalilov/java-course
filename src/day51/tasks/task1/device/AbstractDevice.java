@@ -22,16 +22,11 @@ public abstract class AbstractDevice implements Device {
                 "\ncondition:" + condition;
 
 
+
         if(this instanceof AbstractPhone) {
             AbstractPhone phone = (AbstractPhone) this;
 
             info += "\ncareer:" + phone.getCareer().getName();
-        } else if(this instanceof AbstractLaptop) {
-            AbstractLaptop laptop = (AbstractLaptop) this;
-
-            info += "\nDisplayType:" + laptop.getDisplayType();
-            info += "\nRAM:" + laptop.getRAM();
-            info += "\nScreenSize:" + laptop.getScreenSize();
         } else if(this instanceof AbstractTablet) {
             AbstractTablet tablet = (AbstractTablet) this;
 
