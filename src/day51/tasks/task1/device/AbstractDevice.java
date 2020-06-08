@@ -51,6 +51,7 @@ public abstract class AbstractDevice implements Device {
         this.name = name;
     }
 
+    @Override
     public double getPrice() {
         return price;
     }
