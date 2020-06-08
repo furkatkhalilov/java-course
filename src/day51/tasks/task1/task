@@ -11,4 +11,15 @@ abstract class TV
 create at least 3 concrete class for each category
 
 **Part 2**
+display all properties of device
+
+//1. override toString method in phone/tablet/tv/laptop
+//2. in AbstractDevice:toString(), use downcasting
+
+**Part 3**
 create ShoppingCard application
+addDevice()
+removeDevice()
+getTotalPrice();
+checkOut(double money); //check if money is enough to buy
+
