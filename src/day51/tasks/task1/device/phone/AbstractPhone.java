@@ -1,6 +1,7 @@
-package day51.tasks.task1.phone;
+package day51.tasks.task1.device.phone;
 
-import day51.tasks.task1.AbstractDevice;
+import day51.tasks.task1.device.AbstractDevice;
+import day51.tasks.task1.device.utils.Career;
 
 public abstract class AbstractPhone extends AbstractDevice {
     private Career career;

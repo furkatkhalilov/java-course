@@ -1,9 +1,10 @@
-package day51.tasks.task1;
+package day51.tasks.task1.device;
 
-import day51.tasks.task1.laptop.AbstractLaptop;
-import day51.tasks.task1.phone.AbstractPhone;
-import day51.tasks.task1.tablet.AbstractTablet;
-import day51.tasks.task1.tv.AbstractTV;
+import day51.tasks.task1.device.laptop.AbstractLaptop;
+import day51.tasks.task1.device.phone.AbstractPhone;
+import day51.tasks.task1.device.tablet.AbstractTablet;
+import day51.tasks.task1.device.tv.AbstractTV;
+import day51.tasks.task1.device.utils.Condition;
 
 public abstract class AbstractDevice implements Device {
     private String name;

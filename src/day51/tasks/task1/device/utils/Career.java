@@ -1,4 +1,4 @@
-package day51.tasks.task1.phone;
+package day51.tasks.task1.device.utils;
 
 public enum Career {
     T_MOBILE("T Mobile"), VERIZON("Verizon"), AT_T("AT&T"),

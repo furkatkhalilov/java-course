@@ -1,7 +1,8 @@
 package day51.tasks.task1;
 
-import day51.tasks.task1.phone.Career;
-import day51.tasks.task1.phone.IOSPhone;
+import day51.tasks.task1.device.phone.IOSPhone;
+import day51.tasks.task1.device.utils.Career;
+import day51.tasks.task1.device.utils.Condition;
 
 public class Store {
 

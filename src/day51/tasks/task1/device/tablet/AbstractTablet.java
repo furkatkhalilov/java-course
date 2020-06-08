@@ -1,6 +1,6 @@
-package day51.tasks.task1.tablet;
+package day51.tasks.task1.device.tablet;
 
-import day51.tasks.task1.AbstractDevice;
+import day51.tasks.task1.device.AbstractDevice;
 
 public abstract class AbstractTablet extends AbstractDevice {
 

@@ -1,6 +1,6 @@
-package day51.tasks.task1.tv;
+package day51.tasks.task1.device.tv;
 
-import day51.tasks.task1.AbstractDevice;
+import day51.tasks.task1.device.AbstractDevice;
 
 public abstract class AbstractTV extends AbstractDevice {
 

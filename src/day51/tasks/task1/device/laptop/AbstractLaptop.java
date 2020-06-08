@@ -1,7 +1,7 @@
-package day51.tasks.task1.laptop;
+package day51.tasks.task1.device.laptop;
 
-import day51.tasks.task1.AbstractDevice;
-import day51.tasks.task1.DisplayType;
+import day51.tasks.task1.device.AbstractDevice;
+import day51.tasks.task1.device.utils.DisplayType;
 
 public abstract class AbstractLaptop extends AbstractDevice {
 
