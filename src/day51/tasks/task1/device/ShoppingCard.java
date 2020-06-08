@@ -24,7 +24,7 @@ public class ShoppingCard {
             //2. way downcast device in default method, so that you dont have to implement it in derived classes
             // device.getPrice();
 
-            //3. way implement getPRice method in derived class
+            //3. way implement getPrice method in derived class
             sum += device.getPrice();
         }
 
@@ -32,6 +32,6 @@ public class ShoppingCard {
     }
 
     public void checkOut(double money) {
-        
+
     }
 }
