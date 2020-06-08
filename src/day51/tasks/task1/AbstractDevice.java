@@ -6,10 +6,10 @@ import day51.tasks.task1.tablet.AbstractTablet;
 import day51.tasks.task1.tv.AbstractTV;
 
 public abstract class AbstractDevice implements Device {
-    String name;
-    double price;
-    String model;
-    Condition condition;
+    private String name;
+    private double price;
+    private String model;
+    private Condition condition;
 
 
     @Override
@@ -44,5 +44,38 @@ public abstract class AbstractDevice implements Device {
 
 
         return info;
+    }
+
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public Condition getCondition() {
+        return condition;
+    }
+
+    public void setCondition(Condition condition) {
+        this.condition = condition;
     }
 }
