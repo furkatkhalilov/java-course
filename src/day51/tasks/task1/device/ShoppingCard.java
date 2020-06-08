@@ -18,8 +18,8 @@ public class ShoppingCard {
         double sum = 0;
         for(Device device : deviceList) {
             //1. way downcast device to AbstractDevice
-//            AbstractDevice absDev = (AbstractDevice) device;
-//            absDev.getPrice();
+            // AbstractDevice absDev = (AbstractDevice) device;
+            // absDev.getPrice();
 
             //2. way downcast device in default method, so that you dont have to implement it in derived classes
             // device.getPrice();
@@ -32,6 +32,6 @@ public class ShoppingCard {
     }
 
     public void checkOut(double money) {
-
+        
     }
 }
