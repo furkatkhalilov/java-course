@@ -1,5 +1,7 @@
 package day51.tasks.task1.phone;
 
-public abstract class AbstractPhone {
-    private boolean locked;
+import day51.tasks.task1.AbstractDevice;
+
+public abstract class AbstractPhone extends AbstractDevice {
+    private Career career;
 }

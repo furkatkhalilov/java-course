@@ -1,6 +1,8 @@
 package day51.tasks.task1.tv;
 
-public abstract class AbstractTV {
+import day51.tasks.task1.AbstractDevice;
+
+public abstract class AbstractTV extends AbstractDevice {
 
     private double diagonal;
     private String os;//operation system

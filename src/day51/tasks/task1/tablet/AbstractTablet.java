@@ -1,6 +1,8 @@
 package day51.tasks.task1.tablet;
 
-public abstract class AbstractTablet {
+import day51.tasks.task1.AbstractDevice;
+
+public abstract class AbstractTablet extends AbstractDevice {
 
     private boolean pen;// hasPen
 
