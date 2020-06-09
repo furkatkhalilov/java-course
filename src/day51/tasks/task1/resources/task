@@ -27,3 +27,6 @@ checkOut(double money); //check if money is enough to buy
 create custom exception when user doesn't have enough money
 ex: MoneyNotEnoughException
 
+**Part 5**
+create method to print receipt of products(devices)
+
