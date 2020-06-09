@@ -38,7 +38,7 @@ public class ShoppingCard {
         if(money >= getTotalPrice()) {
             System.out.println("Thank you for purchase, items shipped to your address");
         } else {
-            throw new RuntimeException("You dont have enough money");
+            throw new MoneyNotEnoughException("You dont have enough money");
         }
     }
 }
