@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ShoppingCard {
+
     private List<Device> deviceList = new ArrayList<>();
 
     public void addDevice(Device device) {
@@ -34,6 +35,10 @@ public class ShoppingCard {
     }
 
     public void checkOut(double money) {
-
+        if(money >= getTotalPrice()) {
+            System.out.println("Thank you for purchase, items shipped to your address");
+        } else {
+            throw new RuntimeException("You dont have enough money");
+        }
     }
 }
