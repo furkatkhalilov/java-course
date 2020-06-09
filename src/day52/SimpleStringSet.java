@@ -8,7 +8,7 @@ public class SimpleStringSet implements StringSet {
     //1. way just create set >_>
 
     //2. way
-    List<String> list = new ArrayList<>();
+    protected List<String> list = new ArrayList<>();
 
     //3. way
     // Item{
@@ -53,4 +53,5 @@ public class SimpleStringSet implements StringSet {
     public String toString() {
         return "SimpleStringSet{" + list + '}';
     }
+
 }

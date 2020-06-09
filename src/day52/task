@@ -9,3 +9,4 @@ Create custom StringSet with methods:
 create SimpleStringSet that stores String in unique
 
 **Part 2**
+create SortedStringSet that stores String in unique & natural sorting order
