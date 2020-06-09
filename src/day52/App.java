@@ -11,7 +11,7 @@ public class App {
 //        set.add("str");
 //        set.isEmpty();
 //        set.remove("str");
-//        set.size("str");
+//        set.size();
 //        set.clear();
 
     }
