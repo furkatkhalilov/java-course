@@ -1,4 +1,6 @@
-package day51.tasks.task1.device;
+package day51.tasks.task1;
+
+import day51.tasks.task1.device.Device;
 
 import java.util.ArrayList;
 import java.util.List;
