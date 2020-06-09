@@ -41,4 +41,23 @@ public class ShoppingCard {
             throw new MoneyNotEnoughException("You dont have enough money");
         }
     }
+
+    public void printReceipt() {
+        //1. way downcast device to AbstractDevice
+        // AbstractDevice absDev = (AbstractDevice) device;
+        // absDev.getName();
+
+        //2. way downcast device in default method, so that you dont have to implement it in derived classes
+        // device.getName();
+
+        //3. way implement getName method in derived class
+        System.out.println("--------------------");
+        System.out.println("------Receipt-------");
+        for(Device device : deviceList) {
+            System.out.println(device.getName() + ": $" + device.getPrice());
+        }
+        System.out.println("TOTAL: $" + getTotalPrice());
+        System.out.println("--------------------");
+
+    }
 }

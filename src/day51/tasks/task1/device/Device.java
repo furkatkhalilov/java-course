@@ -10,4 +10,6 @@ public interface Device {
 
     double getPrice();
 
+    String getName();
+
 }

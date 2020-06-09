@@ -35,7 +35,9 @@ public class Store {
 
         card.removeDevice(mac);
         System.out.println("Total 1 item: " + card.getTotalPrice());
-        card.checkOut(2);
+        card.checkOut(20000);
+
+        card.printReceipt();
         /*
         Exception in thread "main" MoneyNotEnoughException: You dont have enough money
 	    at day51.tasks.task1.ShoppingCard.checkOut(ShoppingCard.java:41)

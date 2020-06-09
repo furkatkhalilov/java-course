@@ -43,6 +43,7 @@ public abstract class AbstractDevice implements Device {
     }
 
 
+    @Override
     public String getName() {
         return name;
     }
