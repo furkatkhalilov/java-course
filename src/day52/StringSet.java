@@ -15,4 +15,5 @@ public interface StringSet {
 
     boolean isEmpty();
 
+    void print();
 }
